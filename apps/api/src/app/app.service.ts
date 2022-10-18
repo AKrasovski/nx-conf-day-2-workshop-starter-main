@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { Game } from '@bg-hoard/api/util-interface';
+//import { Game } from '@bg-hoard/api/util-interface';
 import { sendNotification } from '@bg-hoard/api/util-notifications';
 
-const games: Game[] = [
+const games: any /*Game[]*/ = [
   {
     id: 'settlers-in-the-can',
     name: 'Settlers in the Can',
