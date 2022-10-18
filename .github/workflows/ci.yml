@@ -15,3 +15,4 @@ jobs:
       - run: npx nx affected --target=test --base=origin/master --parallel
       - run: npx nx affected --target=lint --base=origin/master --parallel
       - run: npx nx affected --target=e2e --base=origin/master --parallel
+  
